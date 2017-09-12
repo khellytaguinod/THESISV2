@@ -1,10 +1,32 @@
-* {
-  background-color: blue; }
-  * h2 {
-    color: red; }
-  * h1 {
-    color: green; }
-  * h3 {
-    color: yellow; }
+/** { 
+	width: 0 auto;
+    margin: 0 auto;
+	background-color: green;
+	 }*/
+body {
+  margin: 0;
+  padding: 0; }
+
+h1 {
+  color: red;
+  font-size: 25px; }
+
+p {
+  color: yellow;
+  font-size: 25px; }
+
+.header #logo1 {
+  height: 15%; }
+.header .nav-link {
+  color: white;
+  background-color: #15224F;
+  height: 30px;
+  text-align: right; }
+.header .searchbar {
+  background-color: #014FB3;
+  color: white;
+  height: 70px;
+  padding-left: 60px;
+  padding-right: 60px; }
 
 /*# sourceMappingURL=style.css.map */

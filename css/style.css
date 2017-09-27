@@ -3,6 +3,12 @@
     margin: 0 auto;
 	background-color: green;
 	 }*/
+.button-style, .header #sellButton {
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
 body {
   margin: 0;
   padding: 0; }
@@ -15,18 +21,24 @@ p {
   color: yellow;
   font-size: 25px; }
 
-.header #logo1 {
-  height: 15%; }
 .header .nav-link {
   color: white;
   background-color: #15224F;
   height: 30px;
   text-align: right; }
 .header .searchbar {
+  height: 100%;
   background-color: #014FB3;
   color: white;
-  height: 70px;
+  height: 80px;
   padding-left: 60px;
   padding-right: 60px; }
+.header #sellButton {
+  margin: 10% 0px;
+  background-color: #FFE11B;
+  padding: 10px 15px;
+  width: 100%; }
+.header #logoMain {
+  height: 100%; }
 
 /*# sourceMappingURL=style.css.map */

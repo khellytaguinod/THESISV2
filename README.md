@@ -1,3 +1,3 @@
 # THESISV2
 
-## Refractored Version of Thesis iMARKET by iACADAMIT
+## Refactored Version of Thesis iMARKET by iACADAMIT

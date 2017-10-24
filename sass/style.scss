@@ -66,6 +66,52 @@ p {
 		height: 100%;
 	}
 
+}
 
+.footer {
+	// margin-left: 30px; 
+	background-color: $dark-blue;
+	color:white;
+
+	.footer-title {
+		color: $site-yellow;
+		font-size: 20px;
+		font-weight: 300;
+		line-height: 1;
+		position: relative;
+		text-transform: uppercase;
+		font-family: 'roboto', sans-serif;
+		margin-top: 0;
+		margin-right: 0;
+		margin-bottom: 25px;
+		margin-left: 0;
+		padding-left: 28px;
+	}
+
+	.footer-title::before {
+	    background-color: #ea5644;
+	    content: "";
+	    height: 22px;
+	    left: 0px;
+	    position: absolute;
+	    top: -2px;
+	    width: 5px;
+	}
+
+	.footer-links {
+		text-transform: uppercase;
+    	text-align: left;
+		list-style-type: none;
+		padding-left: 0;
+	}
+
+	.title-median {
+	    color: yellow;
+	    font-size: 20px;
+	    line-height: 20px;
+	    margin: 0 0 15px;
+	    text-transform: uppercase;
+		font-family: 'Fjalla One', sans-serif;
+	}	
 
 }

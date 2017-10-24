@@ -16,6 +16,7 @@
 	<!--   	font awesome icons cdn-->
 </head>
 <body>
+	  	 <br>
   <div class="container">
 	  	<div class="row justify-content-md-center">
 		    <div class="col-4 d-none d-sm-block">
@@ -34,7 +35,7 @@
 		    <div class="col-md-4 col-sm-10">
 		      <h2>Join the iMARKET today</h2>
 		      <p> If you already have account<a href="login.php"> LogIn Here</a></p>
-
+		       <small id="Help" class="form-text text-muted">All fields required<medium style="color: red;">*</medium></small>	
 		      <form>
 				  <div class="form-row">
 				    <div class="form-group col-md-6">
@@ -73,7 +74,6 @@
                     <div class="form-group">
                       <label><input id="studentType" type="radio" name="userType" value="student" onchange="studentChange()"	 required>Student</label> <i class="fa fa-graduation-cap" aria-hidden="true"></i>
                       <label><input id="watch-you" type="radio" name="userType" value="employee" onchange="employeeChange()" required>Employee</label> <i class="fa fa-suitcase" aria-hidden="true"></i>
-
                     </div>
                   </div>
 			  </form>
@@ -91,7 +91,10 @@
 		    </div> <!-- end of col-md-4 col-sm-10 -->
 	  </div> <!-- end of row justify-content-md-center -->
   </div>
-
+  <div class="container-fluid" style="background-color: #15224F">
+  	 <?php include 'footer.php'; ?>
+  </div>
+  
 <script>
 // document.getElementById("studentType").addEventListener("change", myFunction);
 

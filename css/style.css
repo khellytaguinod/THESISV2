@@ -37,4 +37,41 @@ h1 {
 .header #logoMain {
   height: 100%; }
 
+.footer {
+  background-color: #15224F;
+  color: white; }
+  .footer .footer-title {
+    color: #FFE11B;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1;
+    position: relative;
+    text-transform: uppercase;
+    font-family: 'roboto', sans-serif;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 25px;
+    margin-left: 0;
+    padding-left: 28px; }
+  .footer .footer-title::before {
+    background-color: #ea5644;
+    content: "";
+    height: 22px;
+    left: 0px;
+    position: absolute;
+    top: -2px;
+    width: 5px; }
+  .footer .footer-links {
+    text-transform: uppercase;
+    text-align: left;
+    list-style-type: none;
+    padding-left: 0; }
+  .footer .title-median {
+    color: yellow;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0 0 15px;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif; }
+
 /*# sourceMappingURL=style.css.map */

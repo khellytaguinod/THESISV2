@@ -15,10 +15,62 @@ $site-yellow: #FFE11B;
 	      padding: 10px 15px;
 	      cursor: pointer;
 	      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+	// font-size: 14px; // not working needed inside the class
+
+	.logInBox {
+
+		font-size: 13px;
+		min-width: 90%;
+	}
 
 }
 
+// Extra small devices (481px and up)
+@media (min-width: 481px) and (max-width: 575px) { 
 
+	.logIn {
+		padding-top: 20% !important;
+	 }
+
+	.logInBox {
+		// max-width: 85%;
+		// width: ;
+		// padding: 2%;
+		min-width: 75%;
+		font-size: 15px;
+		}
+
+
+
+ }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767px) { 
+
+
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991px) { 
+
+
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199px) { 
+
+
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+
+
+ }
 
 body{
 	margin: 0;
@@ -115,3 +167,41 @@ p {
 	}	
 
 }
+
+.logIn {
+
+	padding-top: 3%;
+
+	#iMARKET-icon {
+		width: 100px;
+		height: 100px;
+	}
+}
+
+.logInBox {
+	padding: 2%;
+	margin-top: 1%;
+	width: 25%;
+	min-height: 350px;
+	border: 1px solid #d6d6c2;
+	-webkit-box-shadow: 0px 0px 29px -6px rgba(1,79,179,1);
+    -moz-box-shadow: 0px 0px 29px -6px rgba(1,79,179,1);
+    box-shadow: 0px 0px 29px -6px rgba(1,79,179,1);
+
+    #sign-in-button {
+	  @extend .button-style;
+	  height: 40px;
+	  width:100%;
+	  background-color: $light-blue;
+	  color: #ffffff;
+	}
+
+	#register-button {
+		@extend .button-style;
+		height: 40px;
+		width:100%;
+		background-color: $site-yellow;
+		color: 000000;
+	}
+}
+

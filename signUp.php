@@ -3,11 +3,9 @@
 <head>
 	<title>Sign Up for iMARKET</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-
 	 <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
 	<!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
   	<!-- Bootstrap CSS -->
@@ -20,7 +18,7 @@
   <div class="container">
 	  	<div class="row justify-content-md-center">
 		    <div class="col-4 d-none d-sm-block">
-		      <h3>Why use iMARKET?</h3>
+		      <h3>Why iMARKET?</h3>
 		      <br>
 		      <p>We build this site to help support <b>game changers!</b> entrepreneurs</p>
 		      <br>
@@ -35,7 +33,7 @@
 		    <div class="col-md-4 col-sm-10">
 		      <h2>Join the iMARKET today</h2>
 		      <p> If you already have account<a href="login.php"> LogIn Here</a></p>
-		       <small id="Help" class="form-text text-muted">All fields required<medium style="color: red;">*</medium></small>	
+		       <small id="Help" class="form-text text-muted">All fields required<medium style="color: red;">*</medium></small>
 		      <form>
 				  <div class="form-row">
 				    <div class="form-group col-md-6">
@@ -52,7 +50,7 @@
 				    </div>
 				     <div class="form-group col-md-6">
 				       <label for="inputEmail4" class="col-form-label d-none d-sm-block">&nbsp</label>
-				       <input type="email" class="form-control" value="@iacademy.edu.ph" id="inputEmail4" disabled>	
+				       <input type="email" class="form-control" value="@iacademy.edu.ph" id="inputEmail4" disabled>
 				    </div>
 				  </div>
 				   <div class="form-group">
@@ -94,7 +92,7 @@
   <div class="container-fluid" style="background-color: #15224F">
   	 <?php include 'footer.php'; ?>
   </div>
-  
+
 <script>
 // document.getElementById("studentType").addEventListener("change", myFunction);
 

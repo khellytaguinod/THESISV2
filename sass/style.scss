@@ -19,6 +19,16 @@ $site-yellow: #FFE11B;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+
+.page-header {
+  padding-top: 5%;
+  font-size: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-weight: bold;
+}
+// property for header text for footer
+
 @media (min-width: 320px) and (max-width: 480px) {
 
   // font-size: 14px; // not working needed inside the class
@@ -241,16 +251,8 @@ p {
     max-height: 230px;
   }
 
-
   #bio {
     text-align: justify;
   }
   
-  .page-header {
-    padding-top: 5%;
-    font-size: 40px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
-    font-weight: bold;
-  }
 }

@@ -137,8 +137,6 @@ h1 {
 .aboutUs .img-thumbnail {
   max-width: 230px;
   max-height: 230px; }
-.aboutUs #description {
-  text-align: center; }
 .aboutUs #bio {
   text-align: justify; }
 .aboutUs .page-header {

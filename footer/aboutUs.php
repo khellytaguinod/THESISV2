@@ -29,7 +29,7 @@
             <img src="../img/logos/logo.png" class=".img-fluid logoAbout" alt="">
         </div>
         <div class="col">
-            <h2>About iMarket & iACADAMIT</h2>
+            <h1 class="display-4">About iMarket & iACADAMIT</h1>
             <br>
             <p id="history">The iMARKET is owned and operated by Mr. Jaehoon Jung, Ms. Joanne Daroya and Mr.Khelly Taguinod chief 
                 executive officers of the company. 
@@ -47,22 +47,25 @@
     <div class="row">
         <div class="col">
             <img src="../img/creators/jung.png" alt="..." class="img-thumbnail mx-auto d-block">
-            <p id="description">Web Developer</p>
+            <h3 class="text-center">Jaehoon Jung</h3>
+            <p class="text-muted text-center">Web Developer</p>
             <p id="bio">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore voluptate adipisci pariatur ex, voluptatibus consequatur laudantium iure perferendis porro laboriosam architecto sint suscipit tenetur vitae est autem incidunt eaque explicabo.</p>
         </div>
         <div class="col">
             <img src="../img/creators/joanne.jpg" alt="..." class="img-thumbnail mx-auto d-block">
-            <p id="description">Web Developer</p>
+            <h3 class="text-center">Joanne Daroya</h3>
+            <p class="text-muted text-center">Web Developer</p>
             <p id="bio">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore voluptate adipisci pariatur ex, voluptatibus consequatur laudantium iure perferendis porro laboriosam architecto sint suscipit tenetur vitae est autem incidunt eaque explicabo.</p>
         </div>
         <div class="col">
             <img src="../img/creators/khelly.jpg" alt="..." class="img-thumbnail mx-auto d-block">
-            <p id="description">Web Developer</p>
+            <h3 class="text-center">Khelly Taguinod</h3>
+            <p class="text-muted text-center">Web Developer</p>
             <p id="bio">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore voluptate adipisci pariatur ex, voluptatibus consequatur laudantium iure perferendis porro laboriosam architecto sint suscipit tenetur vitae est autem incidunt eaque explicabo.</p>
         </div>
     </div>
 </div>
-
+<br>
 <?php include '../footer.php' ?>
 </body>
 

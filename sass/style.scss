@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
 $dark-blue: #15224F;
 $light-blue: #014FB3;
 
@@ -11,197 +13,226 @@ $site-yellow: #FFE11B;
 	 }*/
 
 .button-style {
-	      border: none;
-	      padding: 10px 15px;
-	      cursor: pointer;
-	      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
 
-	// font-size: 14px; // not working needed inside the class
+  // font-size: 14px; // not working needed inside the class
 
-	.logInBox {
+  .logInBox {
 
-		font-size: 13px;
-		min-width: 90%;
-	}
+    font-size: 13px;
+    min-width: 90%;
+  }
 
 }
 
 // Extra small devices (481px and up)
-@media (min-width: 481px) and (max-width: 575px) { 
+@media (min-width: 481px) and (max-width: 575px) {
 
-	.logIn {
-		padding-top: 20% !important;
-	 }
+  .logIn {
+    padding-top: 20% !important;
+  }
 
-	.logInBox {
-		// max-width: 85%;
-		// width: ;
-		// padding: 2%;
-		min-width: 75%;
-		font-size: 15px;
-		}
+  .logInBox {
+    // max-width: 85%;
+    // width: ;
+    // padding: 2%;
+    min-width: 75%;
+    font-size: 15px;
+  }
 
+  #logoMain {
+    height: 80%;
+  }
 
-
- }
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) and (max-width: 767px) { 
-
-
- }
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 991px) { 
-
-
- }
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1199px) { 
-
-
- }
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { 
-
-
- }
-
-body{
-	margin: 0;
-    padding: 0;
 }
 
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991px) {
+
+  #logoMain {
+    height: 50%;
+  }
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
 
 h1 {
-	color: red;
-	font-size: 25px;
+  color: red;
+  font-size: 25px;
 }
 
 p {
-	// color: yellow;
-	// font-size: 25px;
+  // color: yellow;
+  // font-size: 25px;
 }
 
-.header	{
+.header {
 
-	.nav-link {
-		color: white;
-		background-color: $dark-blue;
-		height: 30px;
-		text-align: right;	
-	}
+  .nav-link {
+    color: white;
+    background-color: $dark-blue;
+    height: 30px;
+    text-align: right;
+  }
 
-	.searchbar {
-		height: 100%;
-		background-color: $light-blue;
-		color: white;
-		height: 80px;
-		padding-left: 60px;
-		padding-right: 60px;
-	}
+  .searchbar {
+    height: 100%;
+    background-color: $light-blue;
+    color: white;
+    height: 80px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
 
-    #sellButton {
-		@extend .button-style;
-		margin: 10% 0px;
-		background-color: $site-yellow;
-        padding: 10px 15px;
-		width: 100%;
-	}
+  #sellButton {
+    @extend .button-style;
+    margin: 10% 0px;
+    background-color: $site-yellow;
+    padding: 10px 15px;
+    width: 100%;
+  }
 
-	#logoMain {
-		height: 100%;
-	}
+  #logoMain {
+    height: 11%;
+  }
 
 }
 
 .footer {
-	// margin-left: 30px; 
-	background-color: $dark-blue;
-	color:white;
+  // margin-left: 30px;
+  background-color: $dark-blue;
+  color: white;
 
-	.footer-title {
-		color: $site-yellow;
-		font-size: 20px;
-		font-weight: 300;
-		line-height: 1;
-		position: relative;
-		text-transform: uppercase;
-		font-family: 'roboto', sans-serif;
-		margin-top: 0;
-		margin-right: 0;
-		margin-bottom: 25px;
-		margin-left: 0;
-		padding-left: 28px;
-	}
 
-	.footer-title::before {
-	    background-color: #ea5644;
-	    content: "";
-	    height: 22px;
-	    left: 0px;
-	    position: absolute;
-	    top: -2px;
-	    width: 5px;
-	}
+  .footerImarket{
+    color: white;
+    font-size: 15px;
+  }
 
-	.footer-links {
-		text-transform: uppercase;
-    	text-align: left;
-		list-style-type: none;
-		padding-left: 0;
-	}
+  li {
+    padding-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+  }
 
-	.title-median {
-	    color: yellow;
-	    font-size: 20px;
-	    line-height: 20px;
-	    margin: 0 0 15px;
-	    text-transform: uppercase;
-		font-family: 'Fjalla One', sans-serif;
-	}	
+  .footer-title {
+    color: $site-yellow;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1;
+    position: relative;
+    text-transform: uppercase;
+    font-family: 'roboto', sans-serif;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 25px;
+    margin-left: 0;
+    padding-left: 28px;
+  }
+
+  .footer-title::before {
+    background-color: #ea5644;
+    content: "";
+    height: 22px;
+    left: 0px;
+    position: absolute;
+    top: -2px;
+    width: 5px;
+  }
+
+  .footer-links {
+    text-transform: uppercase;
+    text-align: left;
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .title-median {
+    color: yellow;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0 0 15px;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+  }
 
 }
 
 .logIn {
 
-	padding-top: 3%;
+  padding-top: 3%;
 
-	#iMARKET-icon {
-		width: 100px;
-		height: 100px;
-	}
+  #iMARKET-icon {
+    width: 100px;
+    height: 100px;
+  }
 }
 
 .logInBox {
-	padding: 2%;
-	margin-top: 1%;
-	width: 25%;
-	min-height: 350px;
-	border: 1px solid #d6d6c2;
-	-webkit-box-shadow: 0px 0px 29px -6px rgba(1,79,179,1);
-    -moz-box-shadow: 0px 0px 29px -6px rgba(1,79,179,1);
-    box-shadow: 0px 0px 29px -6px rgba(1,79,179,1);
+  padding: 2%;
+  margin-top: 1%;
+  width: 25%;
+  min-height: 350px;
+  border: 1px solid #d6d6c2;
+  -webkit-box-shadow: 0px 0px 29px -6px rgba(1, 79, 179, 1);
+  -moz-box-shadow: 0px 0px 29px -6px rgba(1, 79, 179, 1);
+  box-shadow: 0px 0px 29px -6px rgba(1, 79, 179, 1);
 
-    #sign-in-button {
-	  @extend .button-style;
-	  height: 40px;
-	  width:100%;
-	  background-color: $light-blue;
-	  color: #ffffff;
-	}
+  #sign-in-button {
+    @extend .button-style;
+    height: 40px;
+    width: 100%;
+    background-color: $light-blue;
+    color: #ffffff;
+  }
 
-	#register-button {
-		@extend .button-style;
-		height: 40px;
-		width:100%;
-		background-color: $site-yellow;
-		color: 000000;
-	}
+  #register-button {
+    @extend .button-style;
+    height: 40px;
+    width: 100%;
+    background-color: $site-yellow;
+    color: white;
+  }
 }
 
+.hello {
+  color: #0fad00;
+}
+
+.aboutUs {
+
+  .logoAbout {
+    max-width: 250px;
+    max-height: 250px;
+  }
+
+  #history {
+    text-align: justify;
+  }
+}

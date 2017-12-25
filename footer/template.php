@@ -3,7 +3,7 @@
 
 <head>
     <title>Index</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -15,9 +15,27 @@
 
 <body>
 
-<div class="container-fluid">
+<?php include '../header.php' ?>
 
+<div class="container">
+    <div class="row">
+        <div class="col">
+            Slider
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            Product Category
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            Latest Product
+        </div>
+    </div>
 </div>
+
+<?php include '../footer.php' ?>
 </body>
 
 </html>

@@ -36,11 +36,11 @@
                     <input type="email" class="form-control" placeholder="name@example.com">
                 </div>
                   <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Message Us</label>
+                    <label for="exampleFormControlTextarea1">Message</label>
                     <textarea class="form-control" rows="5" placeholder="Ask us anything you want to know"></textarea>
                 </div>
-                  <button type="submit" class="btn btn-primary">Submit</button>
-                    <button type="reset" class="btn">Clear</button>
+                  <button type="submit" class="btn btn-primary">Send</button>
+                  <button type="reset" class="btn">Clear</button>
             </form> 
         </div>
         <div class="col-sm">

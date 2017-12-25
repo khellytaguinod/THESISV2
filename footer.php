@@ -26,9 +26,11 @@
             <h1 class="footer-title">About iMARKET</h1>
             <ul class="footer-links">
                 <li><a href="../footer/aboutUs.php">About Us</a></li>
-                <li>About Us</li>
+                <li><a href="../footer/contactUs.php">Contact Us</a></li>
+                <li><a href="../footer/FAQ.php">FAQ</a></li>
+                <!-- <li>About Us</li>
                 <li>Contact Us</li>
-                <li>FAQ</li>
+                <li>FAQ</li> -->
             </ul>
         </div>
         <div class="col-md-3 col-sm-12">

@@ -20,7 +20,8 @@
 <div class="container aboutUs">
     <div class="row">
         <div class="col">
-            About Us
+             <h1 class="page-header">About Us</h1>
+            <hr>
         </div>
     </div>
     <div class="row">
@@ -39,7 +40,25 @@
     </div>
     <div class="row">
         <div class="col">
-            Meet the Team
+             <h1 class="page-header">Meet The Team!</h1>
+             <hr>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <img src="../img/creators/jung.png" alt="..." class="img-thumbnail mx-auto d-block">
+            <p id="description">Web Developer</p>
+            <p id="bio">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore voluptate adipisci pariatur ex, voluptatibus consequatur laudantium iure perferendis porro laboriosam architecto sint suscipit tenetur vitae est autem incidunt eaque explicabo.</p>
+        </div>
+        <div class="col">
+            <img src="../img/creators/joanne.jpg" alt="..." class="img-thumbnail mx-auto d-block">
+            <p id="description">Web Developer</p>
+            <p id="bio">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore voluptate adipisci pariatur ex, voluptatibus consequatur laudantium iure perferendis porro laboriosam architecto sint suscipit tenetur vitae est autem incidunt eaque explicabo.</p>
+        </div>
+        <div class="col">
+            <img src="../img/creators/khelly.jpg" alt="..." class="img-thumbnail mx-auto d-block">
+            <p id="description">Web Developer</p>
+            <p id="bio">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore voluptate adipisci pariatur ex, voluptatibus consequatur laudantium iure perferendis porro laboriosam architecto sint suscipit tenetur vitae est autem incidunt eaque explicabo.</p>
         </div>
     </div>
 </div>

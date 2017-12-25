@@ -235,4 +235,25 @@ p {
   #history {
     text-align: justify;
   }
+
+  .img-thumbnail {
+    max-width: 230px;
+    max-height: 230px;
+  }
+
+  #description {
+    text-align: center;
+  }
+
+  #bio {
+    text-align: justify;
+  }
+
+  .page-header {
+    padding-top: 5%;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-weight: bold;
+  }
 }

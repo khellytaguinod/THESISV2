@@ -134,5 +134,18 @@ h1 {
   max-height: 250px; }
 .aboutUs #history {
   text-align: justify; }
+.aboutUs .img-thumbnail {
+  max-width: 230px;
+  max-height: 230px; }
+.aboutUs #description {
+  text-align: center; }
+.aboutUs #bio {
+  text-align: justify; }
+.aboutUs .page-header {
+  padding-top: 5%;
+  font-size: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */
